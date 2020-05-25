@@ -1,0 +1,14 @@
+About - Sobre o restaurante, historia, caracteristicas
+Footer - Endereço e redes sociais?
+Form - Formulario de contato para envio de emails
+Menu - Cardápio, com imagem, nome e preço
+Navbar - Sobre, Cardapio, Delivery, Contato
+Team - Sobre a equipe. Fotos, nomes e cargo
+
+
+--------------------------------------------
+
+Etc
+
+
+
