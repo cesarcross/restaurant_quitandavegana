@@ -42,7 +42,7 @@ const CentralMenu = () => {
               <CentralMenuItem key={id}>
                 <img src={image} alt="" />
                 <h3>{name}</h3>
-                <p>{price}</p>
+                <p>R$ {price}</p>
               </CentralMenuItem>
             );
           }

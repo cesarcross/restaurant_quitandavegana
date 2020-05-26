@@ -25,12 +25,16 @@ export const ContactForm = styled.div`
   input,
   textarea {
     border: none;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #eae8e8;
   }
 
   input:last-of-type {
-    background: green;
+    border: none;
+    background: gray;
     width: 50%;
-    margin: 0 auto;
+    margin: 5px auto;
+    &:hover {
+      background: #20eac5;
+    }
   }
 `;
