@@ -10,6 +10,10 @@ export const TeamCards = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 
 export const TeamPerson = styled.div`
@@ -24,5 +28,11 @@ export const TeamPerson = styled.div`
 
   h2,
   p {
+  }
+
+  @media screen and (min-width: 768px) {
+    img {
+      width: 40%;
+    }
   }
 `;

@@ -10,7 +10,7 @@ export const CentralMenuContainer = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-    flex-direction: row;
+    ${"" /* flex-direction: row; */}
   }
 `;
 
@@ -18,6 +18,10 @@ export const CentralMenuBtnDiv = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 
 export const CentralMenuButton = styled.button`
@@ -28,6 +32,12 @@ export const CentralMenuButton = styled.button`
 
   &:focus {
     outline: 0;
+    background: yellow;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 20%;
+    flex-direction: row;
   }
 `;
 
@@ -53,5 +63,15 @@ export const CentralMenuItem = styled.li`
 
   h2,
   p {
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px auto;
+
+    img {
+      width: 30%;
+    }
   }
 `;

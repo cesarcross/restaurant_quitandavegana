@@ -18,8 +18,8 @@ const Footer = () => (
       <img src={Logo} alt="Logo" />
     </FooterLogo>
     <FooterAddress>
-      <p>Endereço: 8500, Lorem Street, Chicago, IL, 55030</p>
-      <p>Telefone: 0 (800) 123-456</p>
+      <p>Endereço: Rua Amazonia, 2021, Belo Horizonte, MG 55030-756</p>
+      <p>Telefone: +55 31 8888-8888</p>
     </FooterAddress>
     <FooterSocial>
       <a
