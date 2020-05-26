@@ -7,8 +7,21 @@ export const FeaturedMenuContainer = styled.div`
   display: flex;
   flex-direction: column;
   background: #bac64a;
+
+  h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+
   img {
     width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 1.7rem;
+    }
   }
 `;
 

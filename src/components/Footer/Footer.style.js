@@ -8,6 +8,7 @@ export const FooterContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.2rem;
 `;
 
 export const FooterLogo = styled.div`
@@ -25,6 +26,17 @@ export const FooterAddress = styled.div`
 
   p {
     text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+
+    p:first-of-type {
+      margin-right: 5px;
+    }
   }
 `;
 
@@ -48,5 +60,9 @@ export const FooterCaravan = styled.div`
   a {
     font-weight: bold;
     text-decoration: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 1.5rem;
   }
 `;

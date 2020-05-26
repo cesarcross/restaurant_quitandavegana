@@ -20,7 +20,7 @@ const CentralMenu = () => {
 
   return (
     <CentralMenuContainer>
-      <h2>CARDAPIO</h2>
+      <h2>CARDÁPIO</h2>
       <CentralMenuBtnDiv>
         <CentralMenuButton onClick={() => setCategoryState(menuCategories[0])}>
           PRATOS
