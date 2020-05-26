@@ -16,10 +16,23 @@ export const AboutText = styled.div`
   width: 90%;
   margin: 5px auto;
   text-align: justify;
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 70%;
+    padding: 10px;
+
+    p {
+      font-size: 1.6rem;
+    }
+  }
 `;
 
 export const AboutImg = styled.div`
-  border: 2px solid green;
+  border: 2px solid red;
   width: 90%;
   margin: 5px auto;
 
@@ -28,7 +41,7 @@ export const AboutImg = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-    img {
-      width: 70%;
-    }
+    width: 70%;
+    padding: 10px;
+  }
 `;

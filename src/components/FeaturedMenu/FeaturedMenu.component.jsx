@@ -13,7 +13,7 @@ import ifood from "../../assets/images/ifood-logo.png";
 const FeaturedMenu = () => (
   <FeaturedMenuContainer>
     <img src={featuredBanner} alt="Logo" />
-    Peça por:
+    <h3>Peça por:</h3>
     <FeaturedMenuIfood>
       <img src={ifood} alt="" />
     </FeaturedMenuIfood>

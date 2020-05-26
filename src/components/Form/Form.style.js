@@ -2,10 +2,7 @@ import styled from "styled-components";
 
 export const FormContainer = styled.div`
   border: 2px solid green;
-  ${"" /* display: flex;
-  flex-direction: column; */}
-  justify-content: center;
-  align-items: center;
+  margin: 10px auto;
 
   @media screen and (min-width: 768px) {
     justify-content: flex-start;
@@ -22,6 +19,11 @@ export const ContactForm = styled.div`
     width: 100%;
   }
 
+  textarea {
+    resize: none;
+    height: 200px;
+  }
+
   input,
   textarea {
     border: none;
@@ -31,6 +33,10 @@ export const ContactForm = styled.div`
     &:focus {
       outline: 0;
     }
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.7rem;
+    }
   }
 
   input:last-of-type {
@@ -38,12 +44,15 @@ export const ContactForm = styled.div`
     background: gray;
     width: 50%;
     margin: 5px auto;
+    height: 50px;
+    border-radius: 2px;
+    font-size: 1.5rem;
+
     &:hover {
       background: #20eac5;
     }
     @media screen and (min-width: 768px) {
       width: 30%;
-      height: 50px;
     }
   }
 `;
