@@ -9,7 +9,7 @@ const NavbarDefault = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#home" style={{ background: "#da4126" }}>
+          <Nav.Link href="#home" style={{ background: "" }}>
             Home
           </Nav.Link>
           <Nav.Link href="#link">Cardápio</Nav.Link>

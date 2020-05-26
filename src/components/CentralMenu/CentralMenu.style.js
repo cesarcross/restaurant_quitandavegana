@@ -5,9 +5,25 @@ export const CentralMenuContainer = styled.div`
   display: flex;
   flex-direction: column;
 
+  h2 {
+    margin: 0 auto;
+  }
+
   @media screen and (min-width: 768px) {
     flex-direction: row;
   }
+`;
+
+export const CentralMenuBtnDiv = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
+
+export const CentralMenuButton = styled.button`
+  border: 2px solid green;
+  width: 40%;
+  margin: 2px;
 `;
 
 export const CentralMenuCards = styled.ul`

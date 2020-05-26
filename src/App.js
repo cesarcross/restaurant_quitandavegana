@@ -7,22 +7,19 @@ import CentralMenu from "./components/CentralMenu/CentralMenu.component";
 import Team from "./components/Team/Team.component";
 import Form from "./components/Form/Form.component";
 import Footer from "./components/Footer/Footer.component";
-import { MainContainer } from "./components/Main/Main.style";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <MainContainer>
-        <Navbar></Navbar>
-        <FeaturedMenu></FeaturedMenu>
-        <About>Hello World</About>
-        <CentralMenu />
-        <Team />
-        <Form />
-        <Footer />
-      </MainContainer>
+      <Navbar></Navbar>
+      <FeaturedMenu></FeaturedMenu>
+      <About>Hello World</About>
+      <CentralMenu />
+      <Team />
+      <Form />
+      <Footer />
     </div>
   );
 }
