@@ -26,4 +26,9 @@ export const AboutImg = styled.div`
   img {
     width: 100%;
   }
+
+  @media screen and (min-width: 768px) {
+    img {
+      width: 70%;
+    }
 `;

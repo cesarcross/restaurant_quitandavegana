@@ -32,7 +32,7 @@ export const TeamPerson = styled.div`
 
   @media screen and (min-width: 768px) {
     img {
-      width: 40%;
+      width: 70%;
     }
   }
 `;

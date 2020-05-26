@@ -32,7 +32,7 @@ export const CentralMenuButton = styled.button`
 
   &:focus {
     outline: 0;
-    background: yellow;
+    background: red;
   }
 
   @media screen and (min-width: 768px) {

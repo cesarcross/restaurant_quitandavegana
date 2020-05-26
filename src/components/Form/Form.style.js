@@ -26,6 +26,11 @@ export const ContactForm = styled.div`
   textarea {
     border: none;
     border-bottom: 2px solid #eae8e8;
+    margin: 20px 0;
+
+    &:focus {
+      outline: 0;
+    }
   }
 
   input:last-of-type {
@@ -35,6 +40,10 @@ export const ContactForm = styled.div`
     margin: 5px auto;
     &:hover {
       background: #20eac5;
+    }
+    @media screen and (min-width: 768px) {
+      width: 30%;
+      height: 50px;
     }
   }
 `;
