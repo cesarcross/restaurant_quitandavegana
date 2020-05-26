@@ -28,6 +28,7 @@ export const CentralMenuButton = styled.button`
 
   &:focus {
     outline: 0;
+    background: red;
   }
 `;
 

@@ -26,6 +26,7 @@ export const ContactForm = styled.div`
   textarea {
     border: none;
     border-bottom: 2px solid #eae8e8;
+    margin: 20px 0;
   }
 
   input:last-of-type {
