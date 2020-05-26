@@ -24,6 +24,11 @@ export const CentralMenuButton = styled.button`
   border: 2px solid green;
   width: 40%;
   margin: 2px;
+  outline: none;
+
+  &:focus {
+    outline: 0;
+  }
 `;
 
 export const CentralMenuCards = styled.ul`
