@@ -10,10 +10,24 @@ import { Nav as NavItem, Navbar as NavbarBootstrap } from "react-bootstrap";
 export const Navbar = styled(NavbarBootstrap)`
   display: flex;
   justify-content: space-between;
+
+  img {
+    width: 25px;
+    margin-bottom: 10px;
+  }
 `;
 
 export const Nav = styled(NavItem)`
   color: red;
+
+  button {
+    background: transparent;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
 `;
 
 export const NavLogo = styled.div`

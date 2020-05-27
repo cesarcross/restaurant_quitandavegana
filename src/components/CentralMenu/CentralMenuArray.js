@@ -14,7 +14,7 @@ import bob from "../../assets/images/bob.png";
 import holandesa from "../../assets/images/holandesa.png";
 
 import bebida from "../../assets/images/bebida.png";
-import irish from "../../assets/images/irish.png";
+import coffee from "../../assets/images/coffee.png";
 import tangerina from "../../assets/images/tangerina.png";
 import cocktail from "../../assets/images/cocktail.png";
 
@@ -114,9 +114,9 @@ export const menuArray = [
   },
   {
     id: 14,
-    image: irish,
+    image: coffee,
     category: menuCategories[3],
-    name: "Café irlandês",
+    name: "Xícara de café",
     price: 15,
   },
   {

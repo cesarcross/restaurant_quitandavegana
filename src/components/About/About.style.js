@@ -34,6 +34,18 @@ export const AboutText = styled.div`
       font-size: 1.5rem;
     }
   }
+
+  @media screen and (min-width: 992px) {
+    h3 {
+      font-size: 1.5rem;
+      margin: auto 50px;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 40px 50px auto;
+    }
+  }
 `;
 
 export const AboutImg = styled.div`
@@ -48,5 +60,9 @@ export const AboutImg = styled.div`
   @media screen and (min-width: 768px) {
     width: 70%;
     padding: 10px;
+  }
+
+  @media screen and (min-width: 992px) {
+    padding-right: 20px;
   }
 `;

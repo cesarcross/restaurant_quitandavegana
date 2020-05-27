@@ -34,6 +34,10 @@ export const FeaturedMenuWhatsapp = styled.button`
   margin: 5px auto;
   font-weight: bold;
 
+  @media screen and (min-width: 992px) {
+    width: 20%;
+  }
+
   &:hover {
     background: #9aef99;
   }
@@ -50,6 +54,10 @@ export const FeaturedMenuIfood = styled.button`
   width: 40%;
   height: 40px;
   margin: 0 auto;
+
+  @media screen and (min-width: 992px) {
+    width: 20%;
+  }
 
   &:hover {
     background: #f25d46;

@@ -59,26 +59,6 @@ const CentralMenu = () => {
               }
               return "";
             })}
-            {/* <CentralMenu{I}tem>
-          <{i}mg src={pratos} alt="pratos" />
-          <h3>Tacos</h3>
-          <p>R$ 15,00</p>
-        </CentralMenuItem>
-        <CentralMenuItem>
-          <img src={frutas} alt="frutas" />
-          <h3>Tacos</h3>
-          <p>R$ 15,00</p>
-        </CentralMenuItem>
-        <CentralMenuItem>
-          <img src={sobremesa} alt="sobremesa" />
-          <h3>Tacos</h3>
-          <p>R$ 15,00</p>
-        </CentralMenuItem>
-        <CentralMenuItem>
-          <img src={bebida} alt="bebida" />
-          <h3>Tacos</h3>
-          <p>R$ 15,00</p>
-        </CentralMenuItem> */}
           </CentralMenuCards>
         </CentralMenuContainer>
       </Element>
