@@ -6,8 +6,9 @@ export const CentralMenuContainer = styled.div`
   flex-direction: column;
   margin: 20px auto;
 
-  h2 {
-    margin: 0 auto;
+  h3 {
+    font-size: 1.2rem;
+    margin: 10px auto;
   }
 `;
 
@@ -26,7 +27,6 @@ export const CentralMenuButton = styled.button`
   width: 40%;
   margin: 2px;
   outline: none;
-  font-size: 1.2rem;
   border-radius: 2px;
 
   &:focus {
@@ -58,6 +58,7 @@ export const CentralMenuItem = styled.li`
   margin: 10px auto;
 
   h3 {
+    font-size: 1.5rem;
     text-align: center;
   }
 

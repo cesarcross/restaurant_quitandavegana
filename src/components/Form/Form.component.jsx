@@ -10,7 +10,7 @@ const Form = () => (
         action="https://formsubmit.io/send/ebaf272f-0e6b-441c-8c2a-7881d541c7be"
         method="POST"
       >
-        <h1>Contato</h1>
+        <h3>Contato</h3>
         <input
           name="_redirect"
           type="hidden"

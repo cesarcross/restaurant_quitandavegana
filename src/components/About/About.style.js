@@ -17,8 +17,9 @@ export const AboutText = styled.div`
   margin: 5px auto;
   text-align: justify;
 
-  p {
-    font-size: 1.3rem;
+  h3 {
+    font-size: 1.2rem;
+    margin: 15px 0;
   }
 
   @media screen and (min-width: 768px) {

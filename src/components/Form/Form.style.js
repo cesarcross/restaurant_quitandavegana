@@ -19,6 +19,11 @@ export const ContactForm = styled.div`
     width: 100%;
   }
 
+  h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
   textarea {
     resize: none;
     height: 200px;
@@ -46,7 +51,7 @@ export const ContactForm = styled.div`
     margin: 5px auto;
     height: 50px;
     border-radius: 2px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
     &:hover {
       background: #20eac5;

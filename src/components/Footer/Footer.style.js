@@ -8,7 +8,6 @@ export const FooterContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.2rem;
 `;
 
 export const FooterLogo = styled.div`
