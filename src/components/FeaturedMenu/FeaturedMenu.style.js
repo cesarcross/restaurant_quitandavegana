@@ -31,7 +31,7 @@ export const FeaturedMenuWhatsapp = styled.button`
   color: #fff;
   width: 40%;
   height: 40px;
-  margin: 0 auto 5px;
+  margin: 5px auto;
   font-weight: bold;
 
   &:hover {
