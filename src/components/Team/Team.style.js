@@ -2,8 +2,15 @@ import styled from "styled-components";
 
 export const TeamContainer = styled.div`
   border: 2px solid green;
+  display: flex;
+  flex-direction: column;
   background: #fed34a;
-  margin: 10px auto;
+
+  h3 {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
 `;
 
 export const TeamCards = styled.div`
@@ -31,11 +38,11 @@ export const TeamPerson = styled.div`
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 1.2rem;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   @media screen and (min-width: 768px) {

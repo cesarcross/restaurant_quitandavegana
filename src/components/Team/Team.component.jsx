@@ -7,15 +7,16 @@ import Bela from "../../assets/images/bela.png";
 
 const Team = () => (
   <TeamContainer>
+    <h3>Nossa Equipe</h3>
     <TeamCards>
       <TeamPerson>
         <img src={Edu} alt="Eduardo" />
-        <h2>Jorge</h2>
+        <h3>Jorge</h3>
         <p>Cozinheiro</p>
       </TeamPerson>
       <TeamPerson>
         <img src={Bela} alt="Bela" />
-        <h2>Bela</h2>
+        <h3>Bela</h3>
         <p>Cozinheira</p>
       </TeamPerson>
     </TeamCards>

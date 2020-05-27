@@ -20,19 +20,19 @@ const CentralMenu = () => {
 
   return (
     <CentralMenuContainer>
-      <h2>CARDÁPIO</h2>
+      <h3>Cardápio</h3>
       <CentralMenuBtnDiv>
         <CentralMenuButton onClick={() => setCategoryState(menuCategories[0])}>
-          PRATOS
+          Pratos
         </CentralMenuButton>
         <CentralMenuButton onClick={() => setCategoryState(menuCategories[1])}>
-          SALADAS
+          Saladas
         </CentralMenuButton>
         <CentralMenuButton onClick={() => setCategoryState(menuCategories[2])}>
-          SOBREMESAS
+          Sobremesas
         </CentralMenuButton>
         <CentralMenuButton onClick={() => setCategoryState(menuCategories[3])}>
-          BEBIDAS
+          Bebidas
         </CentralMenuButton>
       </CentralMenuBtnDiv>
       <CentralMenuCards>
