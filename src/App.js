@@ -13,9 +13,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <FeaturedMenu></FeaturedMenu>
-      <About>Hello World</About>
+      <Navbar />
+      <FeaturedMenu />
+      <About />
       <CentralMenu />
       <Team />
       <Form />
