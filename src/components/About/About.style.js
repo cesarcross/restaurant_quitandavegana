@@ -26,8 +26,12 @@ export const AboutText = styled.div`
     width: 70%;
     padding: 10px;
 
+    h3 {
+      font-size: 2rem;
+    }
+
     p {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
     }
   }
 `;

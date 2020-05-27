@@ -10,6 +10,12 @@ export const CentralMenuContainer = styled.div`
     font-size: 1.2rem;
     margin: 10px auto;
   }
+
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 2rem;
+    }
+  }
 `;
 
 export const CentralMenuBtnDiv = styled.div`
@@ -47,6 +53,10 @@ export const CentralMenuCards = styled.ul`
   flex-direction: column;
   margin: 0;
   padding: 0;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 50px;
+  }
 `;
 
 export const CentralMenuItem = styled.li`
@@ -72,6 +82,7 @@ export const CentralMenuItem = styled.li`
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
+    width: 90%;
 
     h3 {
       margin-left: 20px;
