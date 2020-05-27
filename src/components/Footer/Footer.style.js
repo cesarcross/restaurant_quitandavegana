@@ -4,7 +4,7 @@ import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 export const FooterContainer = styled.div`
   border: 2px solid green;
-  backgrond: #fed34a;
+  background: #fed34a;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,8 +33,17 @@ export const FooterAddress = styled.div`
     flex-wrap: wrap;
     font-size: 1.5rem;
 
+    p {
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
     p:first-of-type {
       margin-right: 5px;
+    }
+
+    p:last-of-type {
+      margin: 5px auto;
     }
   }
 `;

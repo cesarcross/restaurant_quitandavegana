@@ -89,8 +89,7 @@ export const CentralMenuItem = styled.li`
     }
 
     p {
-      font-size: 2rem;
-      margin-left: auto;
+      margin: auto;
       margin-right: 20px;
     }
 

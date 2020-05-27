@@ -11,12 +11,12 @@ const Team = () => (
     <TeamCards>
       <TeamPerson>
         <img src={Edu} alt="Eduardo" />
-        <h3>Jorge</h3>
+        <h3>JORGE</h3>
         <p>Cozinheiro</p>
       </TeamPerson>
       <TeamPerson>
         <img src={Bela} alt="Bela" />
-        <h3>Bela</h3>
+        <h3>BELA</h3>
         <p>Cozinheira</p>
       </TeamPerson>
     </TeamCards>

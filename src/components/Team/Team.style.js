@@ -11,6 +11,12 @@ export const TeamContainer = styled.div`
     margin: 10px auto;
     font-size: 1.2rem;
   }
+
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 2rem;
+    }
+  }
 `;
 
 export const TeamCards = styled.div`
@@ -37,10 +43,7 @@ export const TeamPerson = styled.div`
     margin-top: 10px;
   }
 
-  h2 {
-    font-size: 1.2rem;
-  }
-
+  h3,
   p {
     font-size: 1.2rem;
   }
@@ -48,6 +51,11 @@ export const TeamPerson = styled.div`
   @media screen and (min-width: 768px) {
     img {
       width: 70%;
+    }
+
+    h3,
+    p {
+      font-size: 1.5rem;
     }
   }
 `;

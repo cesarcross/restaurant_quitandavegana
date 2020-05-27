@@ -22,6 +22,10 @@ export const ContactForm = styled.div`
   h3 {
     font-size: 1.2rem;
     margin: 10px 0;
+
+    @media screen and (min-width: 768px) {
+      font-size: 2rem;
+    }
   }
 
   textarea {
@@ -40,7 +44,7 @@ export const ContactForm = styled.div`
     }
 
     @media screen and (min-width: 768px) {
-      font-size: 1.7rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -59,5 +63,9 @@ export const ContactForm = styled.div`
     @media screen and (min-width: 768px) {
       width: 30%;
     }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 70%;
   }
 `;
