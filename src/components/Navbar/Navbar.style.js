@@ -11,6 +11,10 @@ export const Navbar = styled(NavbarBootstrap)`
   display: flex;
   justify-content: space-between;
 
+  button:focus {
+    outline: none;
+  }
+
   img {
     width: 25px;
     margin-bottom: 10px;
