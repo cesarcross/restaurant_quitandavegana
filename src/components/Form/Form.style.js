@@ -1,11 +1,27 @@
 import styled from "styled-components";
 
 export const FormContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin: 10px auto;
+  display: flex;
+  max-width: 1300px;
 
   @media screen and (min-width: 768px) {
     justify-content: flex-start;
+  }
+`;
+
+export const ContactImg = styled.div`
+  width: min-content;
+  display: none;
+
+  img {
+    width: 500px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding: 50px 20px;
   }
 `;
 
@@ -25,6 +41,10 @@ export const ContactForm = styled.div`
 
     @media screen and (min-width: 768px) {
       font-size: 2rem;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 1.5rem;
     }
   }
 
@@ -46,11 +66,15 @@ export const ContactForm = styled.div`
     @media screen and (min-width: 768px) {
       font-size: 1.5rem;
     }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 1rem;
+    }
   }
 
   input:last-of-type {
     border: none;
-    background: gray;
+    background: #51a15d;
     width: 40%;
     margin: 5px auto;
     height: 40px;
@@ -58,7 +82,7 @@ export const ContactForm = styled.div`
     font-size: 1.2rem;
 
     &:hover {
-      background: #20eac5;
+      background: #eec432;
     }
     @media screen and (min-width: 768px) {
       width: 30%;
@@ -67,5 +91,9 @@ export const ContactForm = styled.div`
 
   @media screen and (min-width: 768px) {
     width: 70%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 40px;
   }
 `;

@@ -47,18 +47,23 @@ const CentralMenu = () => {
             </CentralMenuButton>
           </CentralMenuBtnDiv>
           <CentralMenuCards>
-            {menuArray.map(({ id, image, category, name, price }) => {
-              if (category === categoryState) {
-                return (
-                  <CentralMenuItem key={id}>
-                    <img src={image} alt="" />
-                    <h3>{name}</h3>
-                    <p>R$ {price}</p>
-                  </CentralMenuItem>
-                );
+            {menuArray.map(
+              ({ id, image, category, name, price, description }) => {
+                if (category === categoryState) {
+                  return (
+                    <CentralMenuItem key={id}>
+                      <img src={image} alt="" />
+                      <h3>
+                        {name}
+                        <p>{description}</p>
+                      </h3>
+                      <p>R$ {price}</p>
+                    </CentralMenuItem>
+                  );
+                }
+                return "";
               }
-              return "";
-            })}
+            )}
           </CentralMenuCards>
         </CentralMenuContainer>
       </Element>

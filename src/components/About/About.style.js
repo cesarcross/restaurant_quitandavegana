@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  max-width: 1300px;
+  margin: 0 auto;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
@@ -12,7 +13,7 @@ export const AboutContainer = styled.div`
 `;
 
 export const AboutText = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 90%;
   margin: 5px auto;
   text-align: justify;
@@ -23,7 +24,7 @@ export const AboutText = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-    width: 70%;
+    width: 50%;
     padding: 10px;
 
     h3 {
@@ -46,10 +47,14 @@ export const AboutText = styled.div`
       margin: 40px 50px auto;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 60%;
+  }
 `;
 
 export const AboutImg = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 90%;
   margin: 5px auto;
 
@@ -58,11 +63,11 @@ export const AboutImg = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-    width: 70%;
+    width: 50%;
     padding: 10px;
   }
 
-  @media screen and (min-width: 992px) {
-    padding-right: 20px;
+  @media screen and (min-width: 1200px) {
+    width: 40%;
   }
 `;
