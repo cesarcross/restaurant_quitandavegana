@@ -1,14 +1,17 @@
 import styled from "styled-components";
 
 export const TeamContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
+  max-width: 1300px;
+  margin: 0 auto;
 
   h3 {
     text-align: center;
     margin: 10px auto;
     font-size: 1.2rem;
+    font-weight: 500;
   }
 
   @media screen and (min-width: 768px) {
@@ -19,7 +22,7 @@ export const TeamContainer = styled.div`
 `;
 
 export const TeamCards = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -31,18 +34,23 @@ export const TeamCards = styled.div`
 
 export const TeamPerson = styled.div`
   border: 10px solid;
-  border-color: ${({ bgcolor }) => (bgcolor ? `${bgcolor}` : "white")};
-  ${"" /* background: ${({ bgcolor }) => (bgcolor ? `${bgcolor}` : "white")}; */}
+  border-radius: 3px;
+  border-color: ${({ bgcolor }) => bgcolor};
+  background: ${({ bgcolor }) => bgcolor};
+  color: ${({ txtcolor }) => txtcolor};
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px auto;
-  border-radius: 3px;
-  ${"" /* display: block; */}
+  padding: 0;
   width: min-content;
 
   img {
-    width: 90%;
+    width: 250px;
+  }
+
+  p {
+    margin: 0;
   }
 
   h3,
@@ -52,7 +60,7 @@ export const TeamPerson = styled.div`
 
   @media screen and (min-width: 768px) {
     img {
-      width: 70%;
+      width: 330px;
     }
 
     h3,

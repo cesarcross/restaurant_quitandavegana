@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FaWhatsapp } from "react-icons/fa";
 
 export const FeaturedMenuContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
   background: #bac64a;

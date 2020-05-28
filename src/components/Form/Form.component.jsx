@@ -1,11 +1,16 @@
 import React from "react";
 import { Element } from "react-scroll";
 
-import { FormContainer, ContactForm } from "./Form.style";
+import { FormContainer, ContactImg, ContactForm } from "./Form.style";
+
+import map from "../../assets/images/map.png";
 
 const Form = () => (
   <Element id="contato" name="contato">
     <FormContainer>
+      <ContactImg>
+        <img src={map} alt="" />
+      </ContactImg>
       <ContactForm>
         <form
           id="contactform"

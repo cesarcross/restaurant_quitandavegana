@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 export const FooterContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   background: #fed34a;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterLogo = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
 
@@ -21,7 +21,7 @@ export const FooterLogo = styled.div`
 `;
 
 export const FooterAddress = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   p {
     text-align: center;
@@ -46,14 +46,22 @@ export const FooterAddress = styled.div`
       margin: 5px auto;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    p,
+    p:first-of-type,
+    p:last-of-type {
+      font-size: 1rem;
+      margin: 0 2px;
+    }
+  }
 `;
 
 export const FooterSocial = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
 `;
 
 export const FooterFacebook = styled(FaFacebookSquare)`
-  backgrond: #3eed17;
   font-size: 50px;
 `;
 
@@ -63,14 +71,24 @@ export const FooterInstagram = styled(FaInstagram)`
 `;
 
 export const FooterCaravan = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   a {
     font-weight: bold;
     text-decoration: none;
+    color: #36383b;
+
+    &:hover {
+      color: #666060;
+    }
   }
 
   @media screen and (min-width: 768px) {
     font-size: 1.5rem;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 1rem;
+    margin: 2px;
   }
 `;

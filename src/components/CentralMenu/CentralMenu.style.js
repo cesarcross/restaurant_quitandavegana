@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const CentralMenuContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
   margin: 20px auto;
+  max-width: 1300px;
 
   h3 {
     font-size: 1.2rem;
@@ -29,7 +30,7 @@ export const CentralMenuBtnDiv = styled.div`
 `;
 
 export const CentralMenuButton = styled.button`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 40%;
   margin: 2px;
   outline: none;
@@ -37,7 +38,7 @@ export const CentralMenuButton = styled.button`
 
   &:focus {
     outline: 0;
-    background: red;
+    background: #bdb6a9;
   }
 
   @media screen and (min-width: 768px) {
@@ -47,7 +48,7 @@ export const CentralMenuButton = styled.button`
 `;
 
 export const CentralMenuCards = styled.ul`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -60,7 +61,7 @@ export const CentralMenuCards = styled.ul`
 `;
 
 export const CentralMenuItem = styled.li`
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,11 +75,15 @@ export const CentralMenuItem = styled.li`
     p {
       margin-top: 10px;
       font-size: 1rem;
+      background: transparent;
     }
   }
 
   p {
     font-size: 1.5rem;
+    background: #b8d94f;
+    padding: 2px;
+    border-radius: 2px;
   }
 
   img {
