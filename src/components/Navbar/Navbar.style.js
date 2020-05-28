@@ -8,9 +8,6 @@ import { Nav as NavItem, Navbar as NavbarBootstrap } from "react-bootstrap";
 // `;
 
 export const Navbar = styled(NavbarBootstrap)`
-  display: flex;
-  justify-content: space-between;
-
   button:focus {
     outline: none;
   }
