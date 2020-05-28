@@ -70,6 +70,11 @@ export const CentralMenuItem = styled.li`
   h3 {
     font-size: 1.5rem;
     text-align: center;
+
+    p {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
   }
 
   p {
@@ -86,6 +91,7 @@ export const CentralMenuItem = styled.li`
 
     h3 {
       margin-left: 20px;
+      width: 55%;
     }
 
     p {
@@ -94,7 +100,13 @@ export const CentralMenuItem = styled.li`
     }
 
     img {
-      width: 30%;
+      width: 20%;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    h3 {
+      text-align: left;
     }
   }
 `;

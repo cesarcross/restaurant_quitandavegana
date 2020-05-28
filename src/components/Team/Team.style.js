@@ -4,7 +4,6 @@ export const TeamContainer = styled.div`
   border: 2px solid green;
   display: flex;
   flex-direction: column;
-  background: #fed34a;
 
   h3 {
     text-align: center;
@@ -31,16 +30,19 @@ export const TeamCards = styled.div`
 `;
 
 export const TeamPerson = styled.div`
-  border: 2px solid black;
+  border: 10px solid;
+  border-color: ${({ bgcolor }) => (bgcolor ? `${bgcolor}` : "white")};
+  ${"" /* background: ${({ bgcolor }) => (bgcolor ? `${bgcolor}` : "white")}; */}
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px auto;
-  margin-top: auto;
+  border-radius: 3px;
+  ${"" /* display: block; */}
+  width: min-content;
 
   img {
-    width: 90vw;
-    margin-top: 10px;
+    width: 90%;
   }
 
   h3,

@@ -4,7 +4,7 @@ export const AboutContainer = styled.div`
   border: 2px solid green;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  ${"" /* width: 100vw; */}
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
@@ -23,7 +23,7 @@ export const AboutText = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-    width: 70%;
+    width: 50%;
     padding: 10px;
 
     h3 {
@@ -46,6 +46,10 @@ export const AboutText = styled.div`
       margin: 40px 50px auto;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 60%;
+  }
 `;
 
 export const AboutImg = styled.div`
@@ -58,11 +62,11 @@ export const AboutImg = styled.div`
   }
 
   @media screen and (min-width: 768px) {
-    width: 70%;
+    width: 50%;
     padding: 10px;
   }
 
-  @media screen and (min-width: 992px) {
-    padding-right: 20px;
+  @media screen and (min-width: 1200px) {
+    width: 40%;
   }
 `;

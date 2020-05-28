@@ -15,7 +15,7 @@ const FeaturedMenu = () => (
   <Element id="home" name="home">
     <FeaturedMenuContainer>
       <img src={featuredBanner} alt="Logo" />
-      <h3>Peça por:</h3>
+      <h3>Faça seu pedido!</h3>
       <FeaturedMenuIfood>
         <img src={ifood} alt="" />
       </FeaturedMenuIfood>
