@@ -12,7 +12,8 @@ const NavbarDefault = () => {
     <Navbar bg="light" expand="lg">
       <ScrollLink to="home" spy={true} smooth={true} duration={500}>
         <Navbar.Brand>
-          <img src={LogoIcon} alt="" srcSet="" /> Quitanda Vegana
+          <img src={LogoIcon} alt="" srcSet="" />
+          <p> Quitanda vegana</p>
         </Navbar.Brand>
       </ScrollLink>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

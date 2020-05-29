@@ -9,6 +9,15 @@ export const AboutContainer = styled.div`
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 992px) {
+    margin-top: 50px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 100px auto;
   }
 `;
 
@@ -68,6 +77,6 @@ export const AboutImg = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    width: 40%;
+    width: 30%;
   }
 `;

@@ -10,7 +10,7 @@ import {
   FooterInstagram,
 } from "./Footer.style";
 
-import Logo from "../../assets/images/featured.png";
+import Logo from "../../assets/images/footer_logo.png";
 
 const Footer = () => (
   <FooterContainer>

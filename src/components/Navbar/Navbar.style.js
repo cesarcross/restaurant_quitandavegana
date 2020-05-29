@@ -6,6 +6,12 @@ export const Navbar = styled(NavbarBootstrap)`
     /* outline: thin dotted; */
   }
 
+  p {
+    display: inline;
+    font-family: Luna;
+    font-size: 0.7rem;
+  }
+
   img {
     width: 25px;
     margin-bottom: 10px;

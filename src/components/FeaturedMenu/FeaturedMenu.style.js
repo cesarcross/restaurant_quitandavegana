@@ -6,12 +6,14 @@ export const FeaturedMenuContainer = styled.div`
   /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
-  background: #bac64a;
+  background: #513a31;
 
   h3 {
     font-size: 1.2rem;
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin: 15px auto;
+    color: #fff;
   }
 
   img {
@@ -25,28 +27,6 @@ export const FeaturedMenuContainer = styled.div`
   }
 `;
 
-export const FeaturedMenuWhatsapp = styled.button`
-  border: none;
-  background: #04e676;
-  color: #fff;
-  width: 40%;
-  height: 40px;
-  margin: 5px auto;
-  font-weight: bold;
-
-  @media screen and (min-width: 992px) {
-    width: 20%;
-  }
-
-  &:hover {
-    background: #9aef99;
-  }
-`;
-
-export const MenuWhatsapp = styled(FaWhatsapp)`
-  color: #fff;
-`;
-
 export const FeaturedMenuIfood = styled.button`
   border: none;
   background: #ea1e2c;
@@ -57,6 +37,7 @@ export const FeaturedMenuIfood = styled.button`
 
   @media screen and (min-width: 992px) {
     width: 20%;
+    margin-top: 25px;
   }
 
   &:hover {
@@ -66,4 +47,27 @@ export const FeaturedMenuIfood = styled.button`
   img {
     width: 50px;
   }
+`;
+
+export const FeaturedMenuWhatsapp = styled.button`
+  border: none;
+  background: #04e676;
+  color: #fff;
+  width: 40%;
+  height: 40px;
+  margin: 5px auto 15px;
+  font-weight: bold;
+
+  @media screen and (min-width: 992px) {
+    width: 20%;
+    margin-bottom: 50px;
+  }
+
+  &:hover {
+    background: #9aef99;
+  }
+`;
+
+export const MenuWhatsapp = styled(FaWhatsapp)`
+  color: #fff;
 `;
