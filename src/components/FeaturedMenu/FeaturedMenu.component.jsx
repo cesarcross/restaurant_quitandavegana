@@ -8,7 +8,7 @@ import {
   FeaturedMenuIfood,
 } from "./FeaturedMenu.style";
 
-import featuredBanner from "../../assets/images/featured.png";
+import featuredBanner from "../../assets/images/featured_banner.png";
 import ifood from "../../assets/images/ifood-logo.png";
 
 const FeaturedMenu = () => (

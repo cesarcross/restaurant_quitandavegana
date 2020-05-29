@@ -33,11 +33,13 @@ export const CentralMenuButton = styled.button`
   /* border: 2px solid green; */
   width: 40%;
   margin: 2px;
-  border-radius: 2px;
+  border-radius: 3px;
+  color: #000;
+  background: #b8d94f;
 
   &:focus {
     /* outline: thin solid; */
-    background: #bdb6a9;
+    background: #fed34a;
   }
 
   @media screen and (min-width: 768px) {
@@ -66,6 +68,7 @@ export const CentralMenuItem = styled.li`
   align-items: center;
   width: 90vw;
   margin: 10px auto;
+  background: #f7f5f1;
 
   h3 {
     font-size: 1.5rem;

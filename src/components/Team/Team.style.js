@@ -4,8 +4,8 @@ export const TeamContainer = styled.div`
   /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
-  max-width: 1300px;
   margin: 0 auto;
+  background: #b8d94f;
 
   h3 {
     text-align: center;
@@ -26,6 +26,7 @@ export const TeamCards = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  /* max-width: 1300px; */
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
