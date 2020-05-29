@@ -3,7 +3,7 @@ import { Nav as NavItem, Navbar as NavbarBootstrap } from "react-bootstrap";
 
 export const Navbar = styled(NavbarBootstrap)`
   button:focus {
-    outline: none;
+    /* outline: thin dotted; */
   }
 
   img {
@@ -20,7 +20,7 @@ export const Nav = styled(NavItem)`
     border: none;
 
     &:focus {
-      outline: none;
+      /* outline: none; */
     }
   }
 `;

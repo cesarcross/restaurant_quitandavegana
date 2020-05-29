@@ -33,11 +33,10 @@ export const CentralMenuButton = styled.button`
   /* border: 2px solid green; */
   width: 40%;
   margin: 2px;
-  outline: none;
   border-radius: 2px;
 
   &:focus {
-    outline: 0;
+    /* outline: thin solid; */
     background: #bdb6a9;
   }
 

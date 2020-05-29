@@ -60,7 +60,7 @@ export const ContactForm = styled.div`
     margin: 20px 0;
 
     &:focus {
-      outline: 0;
+      /* outline: thin dotted; */
     }
 
     @media screen and (min-width: 768px) {
