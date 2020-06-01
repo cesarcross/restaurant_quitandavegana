@@ -11,11 +11,6 @@ import {
 
 import { menuArray, menuCategories } from "./CentralMenuArray";
 
-// import pratos from "../../assets/images/pratos.png";
-// import frutas from "../../assets/images/frutas.png";
-// import sobremesa from "../../assets/images/sobremesa.png";
-// import bebida from "../../assets/images/bebida.png";
-
 const CentralMenu = () => {
   const [categoryState, setCategoryState] = useState(menuCategories[0]);
 

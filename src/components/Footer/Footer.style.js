@@ -16,7 +16,14 @@ export const FooterLogo = styled.div`
   justify-content: center;
 
   img {
+    margin: 20px auto;
     width: 50%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    img {
+      width: 25%;
+    }
   }
 `;
 
@@ -63,11 +70,14 @@ export const FooterSocial = styled.div`
 
 export const FooterFacebook = styled(FaFacebookSquare)`
   font-size: 50px;
+  color: darkslategray;
+  margin: auto 5px 10px;
 `;
 
 export const FooterInstagram = styled(FaInstagram)`
-  background: #fed34a;
   font-size: 50px;
+  color: darkslategray;
+  margin: auto 5px 10px;
 `;
 
 export const FooterCaravan = styled.div`

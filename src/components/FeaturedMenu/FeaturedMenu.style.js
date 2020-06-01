@@ -27,17 +27,20 @@ export const FeaturedMenuContainer = styled.div`
   }
 `;
 
+export const FeaturedDelivery = styled.a`
+  margin: 0 auto;
+`;
+
 export const FeaturedMenuIfood = styled.button`
   border: none;
   background: #ea1e2c;
   color: #fff;
-  width: 40%;
+  width: 170px;
   height: 40px;
   margin: 0 auto;
 
-  @media screen and (min-width: 992px) {
-    width: 20%;
-    margin-top: 25px;
+  @media screen and (min-width: 768px) {
+    width: 220px;
   }
 
   &:hover {
@@ -53,14 +56,13 @@ export const FeaturedMenuWhatsapp = styled.button`
   border: none;
   background: #04e676;
   color: #fff;
-  width: 40%;
+  width: 170px;
   height: 40px;
   margin: 5px auto 15px;
   font-weight: bold;
 
-  @media screen and (min-width: 992px) {
-    width: 20%;
-    margin-bottom: 50px;
+  @media screen and (min-width: 768px) {
+    width: 220px;
   }
 
   &:hover {

@@ -5,6 +5,7 @@ import {
   FeaturedMenuContainer,
   FeaturedMenuWhatsapp,
   MenuWhatsapp,
+  FeaturedDelivery,
   FeaturedMenuIfood,
 } from "./FeaturedMenu.style";
 
@@ -16,12 +17,24 @@ const FeaturedMenu = () => (
     <FeaturedMenuContainer>
       <img src={featuredBanner} alt="Logo" />
       <h3>Faça seu pedido!</h3>
-      <FeaturedMenuIfood>
-        <img src={ifood} alt="" />
-      </FeaturedMenuIfood>
-      <FeaturedMenuWhatsapp>
-        Whatsapp <MenuWhatsapp />
-      </FeaturedMenuWhatsapp>
+      <FeaturedDelivery
+        href="http://www.ifood.com.br"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FeaturedMenuIfood>
+          <img src={ifood} alt="" />
+        </FeaturedMenuIfood>
+      </FeaturedDelivery>
+      <FeaturedDelivery
+        href="https://web.whatsapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FeaturedMenuWhatsapp>
+          Whatsapp <MenuWhatsapp />
+        </FeaturedMenuWhatsapp>
+      </FeaturedDelivery>
     </FeaturedMenuContainer>
   </Element>
 );

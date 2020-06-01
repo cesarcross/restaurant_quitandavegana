@@ -11,7 +11,7 @@ const Team = () => (
     <TeamContainer>
       <h3>Nossa Equipe</h3>
       <TeamCards>
-        <TeamPerson bgcolor="#2B634E" txtcolor="#FED34A">
+        <TeamPerson bgcolor="#2B634E" txtcolor="#FED34A" mright={true}>
           <img src={Edu} alt="Eduardo" />
           <h3>JORGE</h3>
           <p>Cozinheiro</p>

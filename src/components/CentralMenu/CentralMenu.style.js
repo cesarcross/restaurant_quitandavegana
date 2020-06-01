@@ -36,6 +36,7 @@ export const CentralMenuButton = styled.button`
   border-radius: 3px;
   color: #000;
   background: #b8d94f;
+  border: none;
 
   &:focus {
     /* outline: thin solid; */

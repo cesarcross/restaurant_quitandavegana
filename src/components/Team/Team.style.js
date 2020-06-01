@@ -9,7 +9,7 @@ export const TeamContainer = styled.div`
 
   h3 {
     text-align: center;
-    margin: 10px auto;
+    margin: 20px 10px auto;
     font-size: 1.2rem;
     font-weight: 500;
   }
@@ -26,10 +26,15 @@ export const TeamCards = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* max-width: 1300px; */
+  margin: 20px 0;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
+  }
+
+  @media screen and (min-width: 992px) {
+    max-width: 992px;
+    margin: 20px auto;
   }
 `;
 
@@ -68,5 +73,9 @@ export const TeamPerson = styled.div`
     p {
       font-size: 1.5rem;
     }
+  }
+
+  @media screen and (min-width: 992px) {
+    margin-right: ${({ mright }) => (mright ? "100px" : "")};
   }
 `;
